@@ -527,7 +527,7 @@
                     <div id="mesagebottomside">
                         <div id="textside">
                             <input id="txtinpt">
-                            <div id="sendbuton" onclick="alert('Karmella tarafından olmayan site bağlantısı algılandı. Lokasyon: Los santos Hastanesi ip:193.196.21.26')"></div>
+                            <div id="sendbuton" onclick="patos()"></div>
                         </div>
                     </div>
                 </div>
@@ -552,6 +552,13 @@
     </div>
 
     <script>
+        let ips = Math.floor(Math.random() * (199 - 150) ) + 150;
+
+        function patos(){
+            alert('Karmella tarafından olmayan site bağlantısı algılandı. Lokasyon: caesars place özel mülk kast kodu: '+ips)
+        }
+
+
         document.getElementById("fredic").style.display = "";
         document.getElementById("bimo").style.display = "none";
         document.getElementById("carmella").style.display = "none";
